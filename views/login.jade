@@ -1,0 +1,32 @@
+//Created by Deric on 6/2/2015.
+extends layout
+block content
+   //form(action='/login', method='post')
+   //   div
+   //      label Username:
+   //      input(type='text', name='username')
+   //      br
+   //   div
+   //      label Password:
+   //      input(type='password', name='password')
+   //   div
+   //      input(type='submit', value='Submit')
+
+   //block content
+   .container
+   .col-sm-6.col-sm-offset-3
+      h1
+         span.fa.fa-sign-in Login
+      form(action='/login', method='post')
+         .form-group
+            label Username
+            input.form-control(type='text', name='username')
+         .form-group
+            label Password
+            input.form-control(type='password', name='password')
+         button.btn.btn-warning.btn-lg(type='submit') Login
+      //hr
+      //p Need an account?
+      //   a(href='/signup')  Signup
+      //p Or go
+      //   a(href='/')  home

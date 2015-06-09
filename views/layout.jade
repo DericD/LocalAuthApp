@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    link(rel="stylesheet", href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css')
+  body
+    block header
+      .container
+        nav.navbar.transparent.navbar-.navbar-fixed-top(role='navigation')
+          .container
+            // Brand and toggle get grouped for better mobile display
+            .navbar-header
+              button.navbar-toggle(type='button', data-toggle='collapse', data-target='#navbar-brand-centered')
+                span.sr-only Toggle navigation
+                span.icon-bar
+                span.icon-bar
+                span.icon-bar
+              a(href='/').navbar-brand.navbar-brand-centered Mango Sharpie
+            // Collect the nav links, forms, and other content for toggling
+            #navbar-brand-centered.collapse.navbar-collapse
+              ul.nav.navbar-nav.navbar-right
+                li
+                  a(href='login') Login
+                li
+                  a(href='#') About
+                li.dropdown
+                  a.dropdown-toggle(href='#', data-toggle='dropdown') Portfolio
+                    span.caret
+                  ul.dropdown-menu(role='menu')
+                    li
+                      a(href='#') Portrait
+                    li
+                      a(href='#') Fashion
+                    li
+                      a(href='#') Beauty
+                    li.divider
+                    li
+                      a(href='#')
+                    li.divider
+                    li
+                      a(href='#')
+    block content
