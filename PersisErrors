@@ -1,0 +1,17 @@
+/***build errors***/
+{ [Error: Cannot find module '../build/Release/bson'] code: 'MODULE_NOT_FOUND' }
+js-bson: Failed to load c++ bson extension, using pure JS version
+{ [Error: Cannot find module '../build/Release/bson'] code: 'MODULE_NOT_FOUND' }
+js-bson: Failed to load c++ bson extension, using pure JS version
+{ [Error: Cannot find module '../build/Release/bson'] code: 'MODULE_NOT_FOUND' }
+js-bson: Failed to load c++ bson extension, using pure JS version
+{ [Error: Cannot find module '../build/Release/bson'] code: 'MODULE_NOT_FOUND' }
+js-bson: Failed to load c++ bson extension, using pure JS version
+
+/***Password will be hashed and salted after user creation model is complete***/
+{ "_id" : ObjectId("557050be277d7cb02722d482"), "username" : "admin", "password" : "admin" }
+{ "_id" : ObjectId("55705104277d7cb02722d483"), "username" : "jay", "password" : "jay" }
+{ "_id" : ObjectId("55705121277d7cb02722d484"), "username" : "roy", "password" : "passport" }
+{ "_id" : ObjectId("557ed4caac758c9c37b7adca"), "password" : "function verified(err, user, info) {
+    \n    if (err) { return self.error(err); }\n    if (!user) { return self.fail(info); }\n
+    self.success(user, info);\n  }", "username" : "man", "__v" : 0 }
